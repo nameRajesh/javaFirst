@@ -26,6 +26,7 @@ public class QuestionNo1 {
         String socialSecurityStatus2;
         socialSecurityStatus2 = (age>65)? "eligible" : "ineligible";
         System.out.println("your Social Security Status is "+ socialSecurityStatus2);
+        sc.close();
 
 	}
 	
